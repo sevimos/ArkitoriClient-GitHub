@@ -24,13 +24,13 @@ final class Skills {
 	public static final int FARMING = 19;
 	public static final int RUNECRAFTING = 20;
 	public static final int SUMMONING = 23;
-	public static final int HUNTER = 22;
+	public static final int HUNTER = 21;
 	public static final int CONSTRUCTION = 22;
 	public static final int DUNGEONEERING = 24;
 
-	public static final int[][] STAT_IDS = new int[][] { { 4004, 4005 } , { 4008, 4009 }, { 4006, 4007 }, { 4016, 4017 }, { 4010, 4011 }, { 4012, 4013 }, { 4014, 4015 }, { 4034, 4035 }, { 4038, 4039 }, { 4026, 4027 }, { 4032, 4033 }, { 4036, 4037 }, { 4024, 4025 }, { 4030, 4031 }, { 4028, 4029 }, { 4020, 4021 }, { 4018, 4019 }, { 4022, 4023 }, { 12166, 12167 }, { 13926, 13927 }, { 4152, 4153 }, { -1, -1 }, { 24134, 24135 }, { -1, -1 }, { -1, -1 } };
+	public static final int[][] STAT_IDS = new int[][] { { 4004, 4005 } , { 4008, 4009 }, { 4006, 4007 }, { 4016, 4017 }, { 4010, 4011 }, { 4012, 4013 }, { 4014, 4015 }, { 4034, 4035 }, { 4038, 4039 }, { 4026, 4027 }, { 4032, 4033 }, { 4036, 4037 }, { 4024, 4025 }, { 4030, 4031 }, { 4028, 4029 }, { 4020, 4021 }, { 4018, 4019 }, { 4022, 4023 }, { 12166, 12167 }, { 13926, 13927 }, { 4152, 4153 }, { -1, -1 }, { 24135, 24134 }, { -1, -1 }, { -1, -1 } };
 
-	public static final String[] SKILL_NAMES = { "attack", "defence", "strength", "hitpoints", "ranged", "prayer", "magic", "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting", "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming", "runecrafting", "summoning", "hunter", "construction", "dungeoneering", "total level" };
+	public static final String[] SKILL_NAMES = { "attack", "defence", "strength", "hitpoints", "ranged", "prayer", "magic", "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting", "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming", "runecrafting", "hunter", "summoning", "construction", "dungeoneering", "total level" };
 
 	public static final boolean[] SKILL_ENABLED = new boolean[SKILLS_COUNT];
 
